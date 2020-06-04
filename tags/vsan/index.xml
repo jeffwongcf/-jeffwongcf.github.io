@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>vSAN on Jeff Wong - Virtualization, Technology &amp; More</title>
+    <link>https://jeffwong.net/tags/vsan/</link>
+    <description>Recent content in vSAN on Jeff Wong - Virtualization, Technology &amp; More</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 06 Sep 2019 12:47:49 -0700</lastBuildDate>
+    
+	<atom:link href="https://jeffwong.net/tags/vsan/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>IOPS Limit – vSAN &amp; Virtual Hard Disk</title>
+      <link>https://jeffwong.net/posts/iops-limit-vsan-virtual-hard-disk/</link>
+      <pubDate>Fri, 06 Sep 2019 12:47:49 -0700</pubDate>
+      
+      <guid>https://jeffwong.net/posts/iops-limit-vsan-virtual-hard-disk/</guid>
+      <description>Occasionally, I will have a technical conversation with a customer on IOPS limit so rather than repeating myself, I thought I should document it here for everyone’s benefit. Cormac Hogan had written up a good introduction to vSAN IOPS Limit storage policy that was introduced back in vSAN 6.2.
+Beyond, the feature, I thought I should illustrate IOPS limit in action and highlight use cases when you would potentially want to use it.</description>
+    </item>
+    
+    <item>
+      <title>Aligning vSAN Disk Group with Physical Setup</title>
+      <link>https://jeffwong.net/posts/aligning-vsan-disk-group-with-physical-setup/</link>
+      <pubDate>Mon, 24 Jun 2019 12:47:49 -0700</pubDate>
+      
+      <guid>https://jeffwong.net/posts/aligning-vsan-disk-group-with-physical-setup/</guid>
+      <description>When designing a vSAN host, one of the consideration to increase availability is by having multiple disk groups and multiple IO controllers within a host. The obvious benefit to this would be to reduce the impact in when a disk or IO controller fails.
+When a decision is made to use multiple IO controllers to drive disk groups within a vSAN host, it is important that the failure domain of such configuration is aligned with the physical setup.</description>
+    </item>
+    
+    <item>
+      <title>No Disks to Claim for vSAN?</title>
+      <link>https://jeffwong.net/posts/no-disks-to-claim-for-vsan/</link>
+      <pubDate>Tue, 11 Jun 2019 15:50:37 -0700</pubDate>
+      
+      <guid>https://jeffwong.net/posts/no-disks-to-claim-for-vsan/</guid>
+      <description>Every so often, I will see someone hitting a speed bump setting up a disk group for vSAN. The case is the same when setting up for build your own vSAN using the disk claim wizard or VMware Cloud Foundation bring up. I thought I would do a quick write up to set it straight and point out some things to watch out for and different ways to overcome this.</description>
+    </item>
+    
+  </channel>
+</rss>
