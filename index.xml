@@ -50,5 +50,15 @@ When a decision is made to use multiple IO controllers to drive disk groups with
 From January 2019, I will continue my role in the VMware Advanced Customer Engagement (ACE) team (formerly Customer Success) as a Staff Architect focusing on VMware’s Core &amp;amp; Hyper Converged Infrastructure (HCI) solutions.</description>
     </item>
     
+    <item>
+      <title>About</title>
+      <link>https://jeffwong.net/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://jeffwong.net/about/</guid>
+      <description>Jeff Wong A Malaysian born Australian currently living and working in the San Francisco Bay Area as an IT architect specializing in the areas of HCI and virtualization.
+Views expressed anywhere on this site are of my own and are independent of my employer or vendor.</description>
+    </item>
+    
   </channel>
 </rss>

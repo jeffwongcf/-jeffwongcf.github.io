@@ -48,7 +48,22 @@
 				</div>
 		</a>
 	</div>
-		<div class="divider"></div>
+		
+<nav class="menu">
+	<button class="menu__btn" aria-haspopup="true" aria-expanded="false" tabindex="0">
+		<span class="menu__btn-title" tabindex="-1">Menu</span>
+	</button>
+	<ul class="menu__list">
+		<li class="menu__item">
+			<a class="menu__link" href="/about/">
+				
+				<span class="menu__text">About</span>
+				
+			</a>
+		</li>
+	</ul>
+</nav>
+
 	</div>
 </header>
 		<div class="wrapper flex">
@@ -107,7 +122,7 @@
 <p><strong>There is this one partition that just would not go away!</strong></p>
 <p>There are occasions when a partition may be used by ESXi to store the scratch partition on a persistent disk. This is most common when you have a previous ESXi installation on the disk that was left behind and you have just reinstalled ESXi on a different disk or SD / USB card. By default, ESXi would have found a VMFS partition it could use and claim that partition for scratch use as appropriate to reduce disk wear on the SD / USB device you are booting off.</p>
 <p>In a scenario like this, you would first need to change the target location of the ESXi scratch partition somewhere else (reboot required to take effect) before the partition removal can be successful.</p>
-<p>Scratch partition reconfiguration – [https://kb.vmware.com/s/article/1033696[(https://kb.vmware.com/s/article/1033696)</p>
+<p>Scratch partition reconfiguration – <a href="https://kb.vmware.com/s/article/1033696">https://kb.vmware.com/s/article/1033696</a></p>
 <p><img src="../images/sc-vsan5.png" alt=""></p>
 <p>Hope this little article would help someone out there.</p>
 
